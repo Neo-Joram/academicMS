@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface SemesterService {
 
-    public Semester addSemester(Semester semester);
-    public List<Semester> semesterList();
-    public void deleteSemester(Semester semester);
-    public Semester findSemesterByName(String name);
+    Semester addSemester(Semester semester);
+    List<Semester> semesterList();
+    void deleteSemester(Semester semester);
+    Semester findSemesterByName(String name);
 }

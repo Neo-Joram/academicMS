@@ -2,7 +2,6 @@ package com.yoramu.model;
 
 import jakarta.persistence.*;
 
-import java.math.BigDecimal;
 import java.util.UUID;
 
 @Entity

@@ -1,7 +1,6 @@
 package com.yoramu.model;
 
 import jakarta.persistence.*;
-import org.hibernate.annotations.ManyToAny;
 
 import java.util.UUID;
 

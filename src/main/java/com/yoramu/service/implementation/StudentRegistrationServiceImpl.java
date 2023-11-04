@@ -32,11 +32,6 @@ public class StudentRegistrationServiceImpl implements StudentRegistrationServic
     }
 
     @Override
-    public Optional<StudentRegistration> studRegistrationById(UUID id) {
-        return registrationDao.findById(id);
-    }
-
-    @Override
     public List<StudentRegistration> getStudentBySemesterId(UUID id) {
         if(id != null) {
             return registrationDao.findStudentRegistrationBySemesterId(id);

@@ -14,7 +14,7 @@ public class TestCont {
     }
 
     @GetMapping("/")
-    public String dashboard(Model model){
+    public String dashboard(){
         return "dashboard";
     }
 }

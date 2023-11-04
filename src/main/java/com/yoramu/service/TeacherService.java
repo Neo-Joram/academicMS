@@ -5,8 +5,8 @@ import com.yoramu.model.Teacher;
 import java.util.List;
 
 public interface TeacherService {
-    public Teacher addTeacher(Teacher teacher);
-    public List<Teacher> teacherList();
-    public void deleteTeacher(Teacher teacher);
-    public Teacher findTeacherByName(String name);
+    Teacher addTeacher(Teacher teacher);
+    List<Teacher> teacherList();
+    void deleteTeacher(Teacher teacher);
+    Teacher findTeacherByName(String name);
 }

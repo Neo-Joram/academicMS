@@ -7,10 +7,10 @@ import java.util.Optional;
 import java.util.UUID;
 
 public interface CourseService {
-    public Course insertCourse(Course course);
-    public List<Course> courseList();
-    public void deleteCourse(Course course);
-    public Optional<Course> courseById(UUID id);
-    public Course courseByDefinitionId(UUID id);
-    public List<Course> courseByDepAndSem(UUID depId, UUID semId);
+    Course insertCourse(Course course);
+    List<Course> courseList();
+    void deleteCourse(Course course);
+    Optional<Course> courseById(UUID id);
+    Course courseByDefinitionId(UUID id);
+    List<Course> courseByDepAndSem(UUID depId, UUID semId);
 }

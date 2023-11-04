@@ -1,6 +1,5 @@
 package com.yoramu.dao;
 
-import com.yoramu.model.Semester;
 import com.yoramu.model.StudentRegistration;
 import org.springframework.data.jpa.repository.JpaRepository;
 
